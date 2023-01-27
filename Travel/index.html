@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Mulish:300,regular,700," rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Inter:regular,500,600,700" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	<title>Travel</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="" class="header__logo"><img src="img/header/logo.svg" alt="logo"></a>
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a href="" class="menu__link">Home</a>
+						</li>
+						<li class="menu__item">
+							<a href="" class="menu__link">Destinations</a>
+						</li>
+						<li class="menu__item">
+							<a href="" class="menu__link">About</a>
+						</li>
+						<li class="menu__item">
+							<a href="" class="menu__link">Partner</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__buttons">
+					<a href="" class="header__button">Login</a>
+					<a href="" class="header__button">Register</a>
+				</div>
+				<div class="header__burger">
+					<span></span>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main">
+				<div class="main__container">
+					<div class="main__content">
+						<h1 class="main__title">
+							Explore and <br> Travel
+						</h1>
+						<form action="#" class="main__form main-form">
+							<div class="main-form__title">Holiday finder</div>
+							<hr class="main-form__decor" />
+							<div class="main-form__input">
+								<select class="custom-select">
+									<option selected disabled>Location</option>
+									<option value="Samara">Samara</option>
+									<option value="Toliatty">Toliatty</option>
+									<option value="Buguruslan">Buguruslan</option>
+									<option value="Saratov">Saratov</option>
+								</select>
+								<select class="custom-select">
+									<option selected disabled>Activity</option>
+									<option value="Camping">Camping</option>
+									<option value="Horseback Riding">Horseback Riding</option>
+									<option value="Hiking">Hiking</option>
+									<option value="Cycling">Cycling</option>
+								</select>
+								<select class="custom-select">
+									<option selected disabled>Grade</option>
+									<option value="Premium">Premium</option>
+									<option value="Business">Business</option>
+									<option value="Сomfort">Сomfort</option>
+									<option value="Economy">Economy</option>
+								</select>
+								<input class="custom-select" type="date" name="calendar" value="2023-01-15" max="2025-12-31"
+									min="2023-01-15">
+							</div>
+							<input class="main-form__button" type="submit" value="Explore">
+						</form>
+					</div>
+					<div class="main__decor">
+						<div class="main__image">
+							<img src="img/mainblock/01.png" alt="Main decor">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__new-way new-way">
+				<div class="new-way__container">
+					<div class="new-way__decor">
+						<div class="new-way__image">
+							<img src="./img/newway/01.png" alt="new-way">
+						</div>
+					</div>
+					<div class="new-way__content">
+						<h1 class="new-way__title">A new way to explore the world </h1>
+						<div class="new-way__subtitle">For decades travellers have reached for Lonely Planet books when
+							looking
+							to plan and execute their perfect trip, but now, they can also let Lonely Planet Experiences
+							lead
+							the
+							way</div>
+						<a href="" class="new-way__button">Learn more</a>
+					</div>
+				</div>
+			</section>
+			<section class="page__destinations destinations">
+				<div class="destinations__container">
+					<div class="destinations__header header-destinations">
+						<h1 class="header-destinations__title">Featured destinations</h1>
+
+						<div class="header-destinations__item">
+							<a href="" class="header-destinations__link">View all</a>
+							<img src="./img/destinations/arrow.svg" alt="arrow">
+						</div>
+					</div>
+					<div class="destinations__body body-destinations">
+						<div class="body-destinations__columns">
+							<div class="body-destinations__column destinations-column">
+								<div class="destinations-column__image">
+									<img src="./img/destinations/01.png" alt="Raja ampat">
+								</div>
+								<div class="destinations-column__description description">
+									<div class="description__place ">Raja Ampat</div>
+									<div class="description__country">Indonesia</div>
+								</div>
+							</div>
+							<div class="body-destinations__column destinations-column">
+								<div class="destinations-column__image">
+									<img src="./img/destinations/02.png" alt="Fanjingshan">
+								</div>
+								<div class="destinations-column__description description">
+									<div class="description__place ">Fanjingshan</div>
+									<div class="description__country">China</div>
+								</div>
+							</div>
+							<div class="body-destinations__column destinations-column">
+								<div class="destinations-column__image">
+									<img src="./img/destinations/03.png" alt="Raja ampat">
+								</div>
+								<div class="destinations-column__description description">
+									<div class="description__place ">Vevey</div>
+									<div class="description__country">Switzerland</div>
+								</div>
+							</div>
+							<div class="body-destinations__column destinations-column">
+								<div class="destinations-column__image">
+									<img src="./img/destinations/04.png" alt="Raja ampat">
+								</div>
+								<div class="destinations-column__description description">
+									<div class="description__place ">Skadar</div>
+									<div class="description__country">Montenegro</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__guides guides">
+				<div class="guides__container">
+					<div class="guides__content">
+						<h1 class="guides__title">Guides by Thousand Sunny</h1>
+						<div class="guides__subtitle">Packed with tips and advice from our on-the-ground experts, our city
+							guides app (iOS and Android) is the ultimate resource before and during a trip.</div>
+						<a href="" class="guides__button">Download</a>
+					</div>
+					<div class="guides__decor">
+						<div class="guides__image">
+							<img src="./img/guides/01.png" alt="guides">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__reviews reviews">
+				<div class="reviews__container _container">
+					<div class="reviews__swiper swiper-reviews swiper">
+						<h2 class="reviews__title title">Testimonials</h2>
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper swiper-reviews__wrapper">
+							<!-- Slides -->
+
+							<div class="swiper-reviews__slide slide-swiper-reviews swiper-slide">
+								<div class="slide-swiper-reviews__body">
+
+									<div class="rewiews__rating">
+										<img src="./img/testimonials/stars.svg" alt="">
+									</div>
+									<div class="slide-swiper-reviews__text">“Quisque in lacus a urna fermentum euismod. Integer
+										mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis
+										nec”</div>
+									<div class="slide-swiper-reviews__author">
+										<div class="slide-swiper-reviews__name">Edward Newgate</div>
+										<div class="slide-swiper-reviews__position">Founder Circle</div>
+									</div>
+								</div>
+								<div class="slide-swiper-reviews__picture">
+									<div class="slide-swiper-reviews__image"><img src="./img/testimonials/image 6.png"
+											alt="Reviews"></div>
+								</div>
+								<div class="review-swiper__buttons">
+									<button type="button" class="rewiev-swiper__button rewiev-swiper__prev">
+										<svg class="swiper__arrow" width="40" height="40" viewBox="0 0 40 40" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path d="M22 25L18 20.5L22 16" stroke="#D7D7D7" stroke-width="2" stroke-linecap="round"
+												stroke-linejoin="round" />
+											<circle cx="20" cy="20" r="19" transform="rotate(-180 20 20)" stroke="#D7D7D7"
+												stroke-width="2" />
+										</svg>
+									</button>
+									<button type="button" class="rewiev-swiper__button rewiev-swiper__next">
+										<svg class="swiper__arrow" width="40" height="40" viewBox="0 0 40 40" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path d="M18 15L22 19.5L18 24" stroke="black" stroke-width="2" stroke-linecap="round"
+												stroke-linejoin="round" />
+											<circle cx="20" cy="20" r="19" stroke="black" stroke-width="2" />
+										</svg>
+									</button>
+								</div>
+							</div>
+							<div class="swiper-reviews__slide slide-swiper-reviews swiper-slide">
+								<div class="slide-swiper-reviews__body">
+									<div class="slide-swiper-reviews__text">“Quisque in lacus a urna fermentum euismod. Integer
+										mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis
+										nec” <br> “Quisque in lacus a urna fermentum euismod. Integer
+										mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis
+										nec”</div>
+									<div class="slide-swiper-reviews__author">
+										<div class="slide-swiper-reviews__name">Edward Newgate</div>
+										<div class="slide-swiper-reviews__position">Founder Circle</div>
+									</div>
+								</div>
+								<div class="slide-swiper-reviews__picture">
+									<div class="slide-swiper-reviews__image"><img src="./img/testimonials/image 6.png"
+											alt="Reviews"></div>
+								</div>
+								<div class="review-swiper__buttons">
+									<button type="button" class="rewiev-swiper__button rewiev-swiper__prev">
+										<svg class="swiper__arrow" width="40" height="40" viewBox="0 0 40 40" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path d="M22 25L18 20.5L22 16" stroke="#D7D7D7" stroke-width="2" stroke-linecap="round"
+												stroke-linejoin="round" />
+											<circle cx="20" cy="20" r="19" transform="rotate(-180 20 20)" stroke="#D7D7D7"
+												stroke-width="2" />
+										</svg>
+									</button>
+									<button type="button" class="rewiev-swiper__button rewiev-swiper__next">
+										<svg class="swiper__arrow" width="40" height="40" viewBox="0 0 40 40" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path d="M18 15L22 19.5L18 24" stroke="black" stroke-width="2" stroke-linecap="round"
+												stroke-linejoin="round" />
+											<circle cx="20" cy="20" r="19" stroke="black" stroke-width="2" />
+										</svg>
+									</button>
+								</div>
+							</div>
+							<div class="swiper-reviews__slide slide-swiper-reviews swiper-slide">
+								<div class="slide-swiper-reviews__body">
+									<div class="slide-swiper-reviews__text">“Quisque in lacus a urna fermentum euismod. Integer
+										mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis
+										nec” </div>
+									<div class="slide-swiper-reviews__author">
+										<div class="slide-swiper-reviews__name">Edward Newgate</div>
+										<div class="slide-swiper-reviews__position">Founder Circle</div>
+									</div>
+								</div>
+								<div class="slide-swiper-reviews__picture">
+									<div class="slide-swiper-reviews__image"><img src="./img/testimonials/image 6.png"
+											alt="Reviews"></div>
+								</div>
+								<div class="review-swiper__buttons">
+									<button type="button" class="rewiev-swiper__button rewiev-swiper__prev">
+										<svg class="swiper__arrow" width="40" height="40" viewBox="0 0 40 40" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path d="M22 25L18 20.5L22 16" stroke="#D7D7D7" stroke-width="2" stroke-linecap="round"
+												stroke-linejoin="round" />
+											<circle cx="20" cy="20" r="19" transform="rotate(-180 20 20)" stroke="#D7D7D7"
+												stroke-width="2" />
+										</svg>
+									</button>
+									<button type="button" class="rewiev-swiper__button rewiev-swiper__next">
+										<svg class="swiper__arrow" width="40" height="40" viewBox="0 0 40 40" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path d="M18 15L22 19.5L18 24" stroke="black" stroke-width="2" stroke-linecap="round"
+												stroke-linejoin="round" />
+											<circle cx="20" cy="20" r="19" stroke="black" stroke-width="2" />
+										</svg>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+			</section>
+			<section class="page__stories stories">
+				<div class="stories__container">
+					<div class="stories__header header-stories">
+						<h1 class="header-stories__title">Trending stories</h1>
+						<div class="header-stories__item">
+							<a href="" class="header-stories__link">View all</a>
+							<img src="./img/destinations/arrow.svg" alt="arrow">
+						</div>
+					</div>
+					<div class="stories__body stories-body">
+						<div class="stories-body__columns">
+							<div class="stories-body__column stories-column">
+								<div class="stories-column__image">
+									<img src="./img/stories/01.png" alt="">
+								</div>
+								<div class="stories-column__title">The many benefits of
+									taking a healing holiday</div>
+								<div class="stories-column__text">‘Helaing holidays’ are on the rise
+									tohelp maximise your health and happines...</div>
+								<a href="" class="stories-column__link">Read more</a>
+							</div>
+							<div class="stories-body__column stories-column">
+								<div class="stories-column__image">
+									<img src="./img/stories/02.png" alt="">
+								</div>
+								<div class="stories-column__title">TThe best Kyoto restaurant to try Japanese food</div>
+								<div class="stories-column__text">From tofu to teahouses, here’s our guide to Kyoto’s best
+									restaurants to visit...</div>
+								<a href="" class="stories-column__link">Read more</a>
+							</div>
+							<div class="stories-body__column stories-column">
+								<div class="stories-column__image">
+									<img src="./img/stories/03.png" alt="">
+								</div>
+								<div class="stories-column__title">Skip Chichen Itza and head to this remote Yucatan</div>
+								<div class="stories-column__text">It’s remote and challenging to get, but braving the jungle and
+									exploring
+									these ruins without the...</div>
+								<a href="" class="stories-column__link">Read more</a>
+							</div>
+							<div class="stories-body__column stories-column">
+								<div class="stories-column__image">
+									<img src="./img/stories/04.png" alt="">
+								</div>
+								<div class="stories-column__title">Surf’s up at these beginner spots around the world</div>
+								<div class="stories-column__text">If learning to surf has in on your to-
+									do list for a while, the good news
+									is: it’s never too late...</div>
+								<a href="" class="stories-column__link">Read more</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			</section>
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__body body-footer">
+						<div class="body-footer__column">
+							<a href="" class="body-footer__logo">
+								<img src="img/header/logo.svg" alt="Footer Logo">
+							</a>
+							<ul class="body-footer__contacts contacts-footer">
+								<li class="contacts-footer__item">
+									Plan and book your perfect trip with expert advice, travel tips destination information from
+									usы
+								</li>
+								<li class="contacts-footer__item-rigths">
+									©2020 Thousand Sunny. All rights reserved
+								</li>
+							</ul>
+						</div>
+						<div class="body-footer__column body-footer__column__full">
+							<nav class="body-footer__menu menu-footer">
+								<div class="menu-footer__column">
+									<div class="menu-footer__title">Destinations</div>
+									<ul class="menu-footer__list">
+										<li class="menu-footer__item">
+											<a href="" class="menu-footer__link">Africa</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="" class="menu-footer__link">Antarctica</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="" class="menu-footer__link">Asia</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="" class="menu-footer__link">Europe</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="" class="menu-footer__link">America</a>
+										</li>
+									</ul>
+								</div>
+								<div class="menu-footer__column">
+									<div class="menu-footer__title">Shop</div>
+									<ul class="menu-footer__list">
+										<li class="menu-footer__item">
+											<a href="" class="menu-footer__link">Destination Guides</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="" class="menu-footer__link">Pictorial & Gifts</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="" class="menu-footer__link">Special Offers</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="" class="menu-footer__link">Delivery Times</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="" class="menu-footer__link">FAQs</a>
+										</li>
+									</ul>
+								</div>
+								<div class="menu-footer__column">
+									<div class="menu-footer__title">Interests</div>
+									<ul class="menu-footer__list">
+										<li class="menu-footer__item">
+											<a href="" class="menu-footer__link">Adventure Travel</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="" class="menu-footer__link">Art And Culture</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="" class="menu-footer__link">Wildlife And Nature</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="" class="menu-footer__link">Family Holidays</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="" class="menu-footer__link">Food And Drink</a>
+										</li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+					</div>
+					<hr>
+					<div class="footer__social">
+						<div href="" class="footer__social-icons">
+							<div class="footer__social-icon"><img src="./img/footer/01.svg" alt="twitter"></div>
+							<div class="footer__social-icon"><img src="./img/footer/02.svg" alt="facebook"></div>
+							<div class="footer__social-icon"><img src="./img/footer/03.svg" alt="twitter"></div>
+							<div class="footer__social-icon"><img src="./img/footer/04.svg" alt="in"></div>
+							<div class="footer__social-icon"><img src="./img/footer/05.svg" alt="youtube"></div>
+						</div>
+					</div>
+				</div>
+			</footer>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="js/script.js">
+	</script>
+</body>
+
+</html>
